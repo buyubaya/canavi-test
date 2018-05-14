@@ -1,0 +1,20 @@
+.preLoadingArea {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.preLoadingArea .ttl {
+    color: #fff;
+    margin-bottom: 50px;
+}
+.btnStart {
+    font-size: 2em;
+    padding: 10px 20px;
+    background: #fff;
+    border: none;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.contentArea {
+	max-width: 320px;
+	margin: 0 auto;
+	padding: 40px 15px;
+}
+.clock {
+	width: 100%;
+	padding-top: 100%;
+	border-radius: 50%;
+	background: #fff url(https://www.pitria.com/wp-content/uploads/2015/03/%D7%9E%D7%97%D7%A9%D7%91%D7%95%D7%AA-20.gif) no-repeat center;
+	background-size: 100%;
+	position: relative;
+	box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.5);
+}
+.clock.pm:before {
+	content: 'PM';
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 20%;
+	padding: 5px;
+	background: #fff;
+	border: 1px solid #000;
+}
+.arrow_hour {
+	width: 4px;
+	height: 25%;
+	background: #000;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	margin-left: -3px;
+	transform-origin: bottom center;
+}
+.arrow_minute {
+	width: 4px;
+	height: 35%;
+	background: #000;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	margin-left: -3px;
+	transform-origin: bottom center;
+}

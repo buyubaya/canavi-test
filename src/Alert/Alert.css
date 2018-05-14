@@ -1,0 +1,24 @@
+.alert {
+    padding: 20px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+    background: #66ff66;
+    border: 2px solid #00cc00;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    animation: alert 0.3s forwards;
+}
+.alert.error {
+    background: #ff3333;
+    border: 2px solid #cc0000;
+}
+@keyframes alert {
+    0%{transform: translate(-100%, -50%);}
+    100%{transform: translate(-50%, -50%);}
+}

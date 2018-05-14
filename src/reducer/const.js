@@ -1,0 +1,11 @@
+export const LOAD_QUESTIONS = 'LOAD_QUESTIONS';
+export const UPDATE_QUESTIONS = 'UPDATE_QUESTIONS';
+export const NEXT = 'NEXT';
+export const INC_CORRECT = 'INC_CORRECT';
+export const RESET = 'RESET';
+export const START = 'START';
+export const SHOW_ALERT = 'SHOW_ALERT';
+export const HIDE_ALERT = 'HIDE_ALERT';
+export const SHOW_RESULT = 'SHOW_RESULT';
+export const HIDE_RESULT = 'HIDE_RESULT';
+export const IS_LOADING = 'IS_LOADING';
